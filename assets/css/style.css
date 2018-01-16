@@ -1,0 +1,20 @@
+html,body,h1,h2,h3,h4,h5,h6 {text-align: justify; font-family: "Roboto", sans-serif}
+
+#myName{
+	color: #fff;
+	background: rgb(1,1,1,0.5)
+}
+
+.w3-display-bottomleft.w3-container{
+	padding-left: 20%;
+}
+
+#translate_links{
+	float: right;
+	padding: 1em;	
+}
+
+#translate_links img{
+	height: 25px;
+	margin-right: 10px;
+}

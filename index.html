@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>Deyvison Estevam</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/styleW3.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel='stylesheet' href='assets/fonts/roboto.css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+
+</head>
+
+<body class="w3-light-grey" onload="loadTranslator()">
+
+  <!-- Page Container -->
+  <div class="w3-content w3-margin-top" style="max-width:1400px;">  
+
+    <!-- The Grid -->
+    <div class="w3-row-padding">    
+      <!-- Left Column -->
+      <div class="w3-third">
+
+        <div class="w3-white w3-text-grey w3-card-4">
+          <div class="w3-display-container">
+            <img src="assets/img/perfil.jpg" style="width:100%" alt="Avatar">
+            <div class="w3-display-bottomleft w3-container w3-text-black">
+              <h2 id="myName" class="tls"></h2>
+            </div>
+          </div>
+          <div class="w3-container">
+            <p>
+              <i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>
+              <span id="myAbility" class="tls"></span>
+            </p>
+            <p>
+              <i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>
+              <span id="myAddress" class="tls"></span>
+            </p>
+            <p>
+              <i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>
+              <span id="myEmail" class="tls"></span>
+            </p>
+            <p>
+              <i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>
+              <span id="myPhone" class="tls"></span>
+            </p>
+
+            <hr>
+
+            <p class="w3-large">
+              <b>
+                <i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>
+                <span id="skillsTxt" class="tls"></span>
+              </b>
+            </p>
+
+            <p>PHP</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
+            </div>
+            <p>Mysql</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
+                <div class="w3-center w3-text-white">80%</div>
+              </div>
+            </div>
+            
+            <p>HTML & CSS</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">80%</div>
+            </div>
+            
+            <p>Javascript</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
+            </div>
+
+            <p>Java</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:65%">65%</div>
+            </div>
+            
+            <p>Linux</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:65%">65%</div>
+            </div>
+            <br>
+
+            <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i><span id="langTxt" class="tls"></span></b></p>            
+            <p>Inglês</p>
+            <div class="w3-light-grey w3-round-xlarge">
+              <div class="w3-round-xlarge w3-teal" style="height:24px;width:55%"></div>
+            </div>            
+            <br>
+          </div>
+        </div><br>
+
+        <!-- End Left Column -->
+      </div>
+
+      <!-- Right Column -->
+      <div class="w3-twothird">
+
+        <div id="translate_links">
+            <a href="index.html?lang=pt-br">
+                <img src="assets/img/br_icon.png" alt="Brasilian"/>
+            </a>
+            <a href="index.html?lang=en">
+                <img src="assets/img/usa_icon.png" alt="USA"/>
+            </a>                    
+        </div>
+
+        <div class="w3-container w3-card w3-white w3-margin-bottom">
+          <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-user-circle fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i><span id="aboutTitle" class="tls"></span></h2>
+          <div class="w3-container">            
+            <p id="aboutText1" class="tls"></p>
+            <p id="aboutText2" class="tls"></p>
+            <hr>
+          </div>                  
+        </div>
+
+        <div class="w3-container w3-card w3-white w3-margin-bottom">
+          <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i><span id="workExperience" class="tls"></span></h2>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b id="xp1Title" class="tls"></b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><span id="periodXp1" class="tls"></span> <span class="w3-tag w3-teal w3-round"></span></h6>
+            <p id="xp1Text" class="tls"></p>
+            <hr>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b id="xp2Title" class="tls"></b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><span id="periodXp2" class="tls"></span></h6>
+            <p id="xp2Text" class="tls"></p>
+            <hr>
+          </div>          
+        </div>
+
+        <div class="w3-container w3-card w3-white">
+          <h2 class="w3-text-grey w3-padding-16">
+            <i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>
+            <span id="myEducation" class="tls"></span>
+          </h2>          
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b id="UFRN" class="tls"></b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><span id="periodUFRN" class="tls"></span></h6>
+            <p id="levelUFRN" class="tls"></p><br>
+          </div>
+        </div>
+
+        <!-- End Right Column -->
+      </div>
+
+      <!-- End Grid -->
+    </div>
+
+    <!-- End Page Container -->
+  </div>
+
+  <footer class="w3-container w3-teal w3-center w3-margin-top">
+    <p id="findMeSm" class="tls"></p>
+    <a target="_blank" href="https://www.facebook.com/deyvison.rodrigo.12"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a target="_blank" href="https://github.com/deyvisound"><i class="fa fa-github w3-hover-opacity"></i></a>    
+    <a target="_blank" href="https://www.linkedin.com/in/deyvison-estevam-21664955"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+    <p>...</p>
+  </footer>
+
+  <script type="text/javascript" src="assets/js/util.js"></script>
+  <script type="text/javascript" src="assets/js/jquery-321.js"></script>
+</body>
+</html>

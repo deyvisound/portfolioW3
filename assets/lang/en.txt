@@ -1,0 +1,29 @@
+{
+	
+	"myName":"Deyvison", 
+	"age":26, 
+	"myAddress":"Natal/RN, Brazil",
+	"myAbility":"Developer",
+	"myEmail": "deyvisonestevam@gmail.com",
+	"myPhone": "55 (84) 98831-5655",
+	"skillsTxt": "Skills",
+	"langTxt": "Languages",
+
+	"aboutTitle": "About",
+	"aboutText1": "I'm Deyvison Rodrigo B. Estevam, born in November 23, 1991. My professional life started early when I was 15 years old, but not in the IT field. I worked at supermarkets, stores and even with delivery.",
+	"aboutText2": "In 2011 when I entered in university(UFRN), I came across this fantastic world of programming that I love to be part of. The feeling of...",
+
+	"myEducation": "Education",
+	"UFRN": "UFRN - Federal University of Rio Grande do Norte",
+	"periodUFRN": "2011 - 2015",
+	"levelUFRN": "Bachelor Degree",
+	"workExperience": "Work Experience",
+	"xp1Title": "Back-End Developer / Internet Provider",
+	"periodXp1": "Feb 2015 - Oct-2017",
+	"xp1Text": "Em fevereiro de 2015, fui selecionado para vaga de programador jr em um provedor de internet da região. A linguagem principal era o php, porém existiam projetos adjacentes em outras tecnologias como c++ e python. Desenvovi sistemas(ERP, CRM) e sites, após 2 anos fui promovido ao cargo de analista de desenvolvimento de sistemas. Passei mais 10 meses na empresa e sai devido um corte de funcionários.", 
+	"xp2Title": "Web Developer / Bank",
+	"periodXp2": "Fev 2013 - Jan-2015",
+	"xp2Text": "Estagiei na superintendência do Banco do Brasil do RN. Lá trabalhei com Java Web(JSP, Hibernate, Mysql) e desenvolvimento de aplicativos Desktop com Visual Basic for Applications.", 
+	"findMeSm":"Find me on social media"
+
+}
